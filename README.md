@@ -71,7 +71,7 @@
 - **Python 3.10+** (tested on Python 3.14)
 - **[`rich`](https://github.com/Textualize/rich)** library for terminal rendering:
   ```bash
-  pip install rich
+  pip install -r requirements.txt
   ```
 
 ### Running the Game
@@ -116,6 +116,7 @@ python main.py --clear
 ```text
 Adventure/
 ├── main.py                          # Entry point, title screen, CLI args, main loop
+├── requirements.txt                 # External dependency (rich)
 ├── README.md                        # Project overview and quick start
 ├── USERGUIDE.md                     # Comprehensive player manual & command guide
 ├── CHANGELOG.md                     # Release history and current feature status

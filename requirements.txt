@@ -1,0 +1,2 @@
+# External dependencies for Echoes of the Aethelgard Spire
+rich>=13.0.0
