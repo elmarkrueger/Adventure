@@ -1,0 +1,1645 @@
+{
+  "meta": {
+    "slot": "quicksave",
+    "saved_at": "2026-11-07 09:44:28",
+    "room_name": "Calcified Cistern",
+    "stratum": -3,
+    "stratum_name": "Stratum -3: The Bioluminescent Abyss",
+    "turn_count": 20,
+    "memories_restored": 0,
+    "visited_count": 6,
+    "checksum": "1c467dd68a3ec22f"
+  },
+  "state": {
+    "current_room_id": "n3_calcified_cistern",
+    "inventory": [
+      "fractured_vial",
+      "raw_quartz_crystal",
+      "phosphor_lantern",
+      "brine_solvent",
+      "abyssal_tablet",
+      "emery_cloth",
+      "rusted_grapnel",
+      "calcified_barnacle"
+    ],
+    "max_inventory_slots": 8,
+    "visited_rooms": [
+      "n3_awakening_slab",
+      "n3_brine_pool",
+      "n3_calcified_cistern",
+      "n3_hermit_alcove",
+      "n3_phosphor_cavern",
+      "n3_sluice_control"
+    ],
+    "pneumatic_locker": [],
+    "notes": [
+      {
+        "id": 1,
+        "text": "to purge tthe droowned ossuary without bursting the lower pipes: open value a (intake bypass), leave valve B (backflow) closed and attach the spare wheel to open valve C Sump Outfow)",
+        "tag": "general",
+        "room_id": "n3_hermit_alcove",
+        "room_name": "Survivor's Alcove",
+        "coord": [
+          1,
+          -1,
+          -3
+        ],
+        "created_turn": 13
+      }
+    ],
+    "next_note_id": 2,
+    "unlocked_lore": [
+      "lore_n3_sluice"
+    ],
+    "memories_restored": [],
+    "turn_count": 20,
+    "puzzle_Solved_count": 0,
+    "game_won": false,
+    "ending_type": null,
+    "last_message": "",
+    "flags": {
+      "n3_ossuary_drained": false,
+      "n3_sluice_valve_a": false,
+      "n3_sluice_valve_b": false,
+      "n3_sluice_valve_c": false,
+      "n3_grapnel_hooked": false,
+      "n3_counterweight_dropped": false,
+      "n3_solar_core_awakened": false,
+      "n3_bell_pressurized": false,
+      "n2_valve_alpha": 0,
+      "n2_valve_beta": 0,
+      "n2_valve_gamma": 0,
+      "n2_steam_press_online": false,
+      "n2_atrium_lift_powered": false,
+      "n2_crucible_heated": false,
+      "n2_counterweight_released": false,
+      "n2_slag_bridge_cooled": false,
+      "n2_tram_repaired": false,
+      "n1_canal_water_level": "low",
+      "n1_waterwheel_engaged": false,
+      "n1_alembic_temp": "off",
+      "n1_gold_seal_dissolved": false,
+      "n1_whisper_angle": "north",
+      "n1_crypt_gate_open": false,
+      "n1_filtration_purged": false,
+      "z0_pendulum_running": false,
+      "z0_gear_installed": false,
+      "z0_brake_released": false,
+      "z0_chrono_dial": "0000",
+      "z0_pneumatic_online": false,
+      "z0_chime_sequence": [],
+      "z0_weights_balanced": false,
+      "z0_shutter_open": false,
+      "z0_west_bridge_extended": false,
+      "p1_cipher_wheel": "AAAA",
+      "p1_uv_lamp_powered": false,
+      "p1_blueprint_revealed": false,
+      "p1_loom_tuned": false,
+      "p1_secret_index_open": false,
+      "p1_paternoster_fused": false,
+      "p2_mirror_north": "east",
+      "p2_mirror_south": "west",
+      "p2_prism_installed": false,
+      "p2_solar_beam_active": false,
+      "p2_wind_organ_chord": "",
+      "p2_bees_calmed": false,
+      "p2_elevator_powered": false,
+      "p2_orchid_pollinated": false,
+      "p3_astrolabe_azimuth": 0,
+      "p3_astrolabe_altitude": 0,
+      "p3_astrolabe_aligned": false,
+      "p3_west_pylon_freq": 0,
+      "p3_east_pylon_freq": 0,
+      "p3_pylons_synced": false,
+      "p3_lightning_captured": false,
+      "p3_core_unlocked": false,
+      "p3_cylinders_inserted": []
+    },
+    "room_states": {
+      "n3_awakening_slab": {
+        "items": [],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n3_phosphor_cavern": {
+        "items": [],
+        "exits": {
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n3_hermit_alcove": {
+        "items": [],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n3_sluice_control": {
+        "items": [],
+        "exits": {
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": true,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n3_brine_pool": {
+        "items": [],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n3_calcified_cistern": {
+        "items": [
+          "copper_wire_spool",
+          "cured_leather"
+        ],
+        "exits": {
+          "east": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n3_echoing_sump": {
+        "items": [],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": true,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n3_mycelial_bridge": {
+        "items": [
+          "mycelial_cord"
+        ],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n3_submerged_bell_dock": {
+        "items": [
+          "valve_wheel",
+          "diving_helmet"
+        ],
+        "exits": {
+          "west": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n3_drowned_ossuary": {
+        "items": [
+          "cylinder_1",
+          "torn_satchel"
+        ],
+        "exits": {
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n3_whispering_fissure": {
+        "items": [],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "up": {
+            "locked": true,
+            "hidden": false
+          }
+        }
+      },
+      "n3_lift_shaft_bottom": {
+        "items": [],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "up": {
+            "locked": true,
+            "hidden": false
+          }
+        }
+      },
+      "n2_venting_chimney": {
+        "items": [
+          "wire_brush"
+        ],
+        "exits": {
+          "down": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n2_lift_landing": {
+        "items": [],
+        "exits": {
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "down": {
+            "locked": true,
+            "hidden": false
+          }
+        }
+      },
+      "n2_winch_room": {
+        "items": [
+          "insulated_gauntlets"
+        ],
+        "exits": {
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n2_coal_bunker": {
+        "items": [
+          "iron_oxide",
+          "soot_plaque"
+        ],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n2_boiler_manifold": {
+        "items": [],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n2_turbine_gallery": {
+        "items": [
+          "aluminum_shavings",
+          "forge_hammer"
+        ],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n2_forgemaster_office": {
+        "items": [
+          "foundry_ledger",
+          "broken_sanctum_key",
+          "magnesium_ribbon"
+        ],
+        "exits": {
+          "east": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n2_cooling_vats": {
+        "items": [
+          "clay_blank",
+          "cryo_canister"
+        ],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": true,
+            "hidden": false
+          }
+        }
+      },
+      "n2_magma_siphon": {
+        "items": [
+          "empty_crucible"
+        ],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n2_pneumatic_hub": {
+        "items": [
+          "brass_ingot",
+          "broken_coupler"
+        ],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n2_slag_crucible": {
+        "items": [
+          "cylinder_2",
+          "slag_nodule"
+        ],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n2_pressure_vault": {
+        "items": [],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "up": {
+            "locked": true,
+            "hidden": false
+          }
+        }
+      },
+      "n2_tram_dock": {
+        "items": [
+          "sluice_crank"
+        ],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n1_steam_vestibule": {
+        "items": [],
+        "exits": {
+          "down": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n1_drainage_basin": {
+        "items": [
+          "distilled_water"
+        ],
+        "exits": {
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n1_sluice_overlook": {
+        "items": [
+          "muriatic_acid_vial"
+        ],
+        "exits": {
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n1_waterwheel_dynamo": {
+        "items": [],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n1_aqueduct_south": {
+        "items": [],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": true,
+            "hidden": false
+          }
+        }
+      },
+      "n1_alchemical_distillery": {
+        "items": [
+          "alchemist_notes"
+        ],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n1_vitriol_vault": {
+        "items": [
+          "nitric_acid_vial",
+          "optical_resin"
+        ],
+        "exits": {
+          "west": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n1_canal_lock_control": {
+        "items": [],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n1_aqueduct_north": {
+        "items": [
+          "drained_compass"
+        ],
+        "exits": {
+          "south": {
+            "locked": true,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n1_glassblower_annex": {
+        "items": [
+          "cracked_lens"
+        ],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": true,
+            "hidden": false
+          }
+        }
+      },
+      "n1_whispering_dome": {
+        "items": [
+          "beveled_gear"
+        ],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n1_spiral_stair": {
+        "items": [],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": true,
+            "hidden": false
+          },
+          "up": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "n1_founders_crypt": {
+        "items": [
+          "cylinder_3",
+          "pneumatic_passkey"
+        ],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "z0_great_stairwell": {
+        "items": [],
+        "exits": {
+          "down": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "z0_chime_balcony": {
+        "items": [],
+        "exits": {
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "z0_maintainer_barracks": {
+        "items": [
+          "chime_mallet",
+          "torn_cipher_left"
+        ],
+        "exits": {
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "z0_pneumatic_locker_room": {
+        "items": [
+          "brass_gimbal"
+        ],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "z0_north_gear_gallery": {
+        "items": [],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "z0_chrono_booth": {
+        "items": [],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "z0_broken_bridge_west": {
+        "items": [
+          "lead_counterweight",
+          "copper_fuse"
+        ],
+        "exits": {
+          "east": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "z0_tramway_concourse": {
+        "items": [],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": true,
+            "hidden": false
+          }
+        }
+      },
+      "z0_pendulum_rotunda": {
+        "items": [],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "up": {
+            "locked": true,
+            "hidden": false
+          }
+        }
+      },
+      "z0_cartographer_wing": {
+        "items": [
+          "chronometer_plaque"
+        ],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": true,
+            "hidden": false
+          }
+        }
+      },
+      "z0_sun_shaft_balcony": {
+        "items": [
+          "torn_cipher_right"
+        ],
+        "exits": {
+          "west": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "z0_vault_of_weights": {
+        "items": [],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "z0_south_escapement": {
+        "items": [],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": true,
+            "hidden": false
+          }
+        }
+      },
+      "z0_hall_of_anchors": {
+        "items": [
+          "cylinder_4"
+        ],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p1_archive_rotunda": {
+        "items": [],
+        "exits": {
+          "down": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p1_south_stacks": {
+        "items": [
+          "dried_dream_leaf"
+        ],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p1_restoration_lab": {
+        "items": [],
+        "exits": {
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p1_listening_booths": {
+        "items": [
+          "uv_bulb"
+        ],
+        "exits": {
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p1_east_stacks": {
+        "items": [],
+        "exits": {
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p1_west_stacks": {
+        "items": [],
+        "exits": {
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": true,
+            "hidden": true
+          }
+        }
+      },
+      "p1_secret_vault": {
+        "items": [
+          "cylinder_5",
+          "tuning_fork_432"
+        ],
+        "exits": {
+          "east": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p1_north_stacks": {
+        "items": [],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p1_acoustic_loom": {
+        "items": [],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p1_curator_study": {
+        "items": [
+          "blank_blueprint"
+        ],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p1_paternoster_landing": {
+        "items": [],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "up": {
+            "locked": true,
+            "hidden": false
+          }
+        }
+      },
+      "p1_cipher_rotunda": {
+        "items": [],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p1_upper_gallery": {
+        "items": [
+          "empty_smoker"
+        ],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p2_conservatory_dome": {
+        "items": [],
+        "exits": {
+          "down": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p2_mirror_north": {
+        "items": [],
+        "exits": {
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p2_spore_condenser": {
+        "items": [
+          "starlight_pollen"
+        ],
+        "exits": {
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p2_hydroponic_reservoir": {
+        "items": [],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p2_prism_tower": {
+        "items": [],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p2_orchid_grove": {
+        "items": [],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p2_apiary": {
+        "items": [],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p2_mirror_south": {
+        "items": [],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p2_wind_organ_loft": {
+        "items": [
+          "cylinder_6"
+        ],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p2_root_catwalk": {
+        "items": [],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p2_elevator_lobby": {
+        "items": [],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "up": {
+            "locked": true,
+            "hidden": false
+          }
+        }
+      },
+      "p2_cloud_pier": {
+        "items": [
+          "aether_capacitor"
+        ],
+        "exits": {
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p3_arrival_platform": {
+        "items": [],
+        "exits": {
+          "down": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p3_star_chart_rotunda": {
+        "items": [
+          "star_chart_overlay"
+        ],
+        "exits": {
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p3_architect_quarters": {
+        "items": [
+          "architect_signet",
+          "cylinder_7"
+        ],
+        "exits": {
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p3_astrolabe_deck": {
+        "items": [],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p3_zenith_bridge": {
+        "items": [],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": true,
+            "hidden": false
+          }
+        }
+      },
+      "p3_telescope_dome": {
+        "items": [],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p3_lightning_spire": {
+        "items": [],
+        "exits": {
+          "west": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p3_west_pylon": {
+        "items": [],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p3_core_antechamber": {
+        "items": [],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          },
+          "east": {
+            "locked": false,
+            "hidden": false
+          },
+          "north": {
+            "locked": true,
+            "hidden": false
+          }
+        }
+      },
+      "p3_east_pylon": {
+        "items": [],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          },
+          "west": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      },
+      "p3_resonance_crown": {
+        "items": [],
+        "exits": {
+          "south": {
+            "locked": false,
+            "hidden": false
+          }
+        }
+      }
+    }
+  }
+}
